@@ -28,6 +28,9 @@ Since it's reformatted , we need to relearn all its properties through the EDA p
 | ParaSCI train | 338717 |  | 338717 | 18.849133642 | 115.715352344 | 0.24567297508 |
 |               |        |  |        |              |               |               |
 
+![image](https://github.com/soneeee22000/Scientific-RWA-Paraphraser-with-BERT-on-ParaSCI/assets/109932809/bf806142-edb1-4f68-a3cf-ca920fe230be)
+
+
 ## Our Model
 
 Since In the case of our BERT model (Bidirectional Encoder Representations from Transformers), a small portion of the input sequence is randomly masked(during Pretraining), meaning certain words in our train sequence are replaced with a special token, typically "[MASK]". The model then tries to predict the original words based on the context of the surrounding words.
