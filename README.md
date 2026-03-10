@@ -1,5 +1,10 @@
 # Paraphraser Bert Model Training On ParaSCI Dataset
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co)
+[![BERT](https://img.shields.io/badge/BERT-NLP_Model-4285F4?style=flat-square&logo=google&logoColor=white)](https://arxiv.org/abs/1810.04805)
+
 This repo contains my contribution to the Paraphrasing Project at AIT Brain-Lab with the BERT Model on **ParaSCI** dataset
 in [**ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation**](https://arxiv.org/abs/2101.08382) along with the code working on tasks ranging from ETL- Extract,Transform,Load , some EDA analysis(always) ,preprocessing, the creating training sequence to the actual training , fine tuning , deployment and so forth...
 
@@ -17,19 +22,18 @@ According to HuggingFace ,we can do that easily by [Load a dataset from the Hub 
 
 Since it's reformatted , we need to relearn all its properties through the EDA process and it can be learned as follows:
 
-### Detailed Statistics for ParaSCI 
+### Detailed Statistics for ParaSCI
 
 · Len represents the average number of words per sentence and Char Len represents the average number of characters per sentence.
 
 · We calculate Len, Char Len and Self-BLEU of the reformatted dataset from Huggingface mostly made up of gold-standard paraphrases
 
-| Name          | Source |  | Target | Len          | Char Len      | Self-BLEU     |
-| ------------- | ------ | - | ------ | ------------ | ------------- | ------------- |
-| ParaSCI train | 338717 |  | 338717 | 18.849133642 | 115.715352344 | 0.24567297508 |
-|               |        |  |        |              |               |               |
+| Name          | Source |     | Target | Len          | Char Len      | Self-BLEU     |
+| ------------- | ------ | --- | ------ | ------------ | ------------- | ------------- |
+| ParaSCI train | 338717 |     | 338717 | 18.849133642 | 115.715352344 | 0.24567297508 |
+|               |        |     |        |              |               |               |
 
 ![image](https://github.com/soneeee22000/Scientific-RWA-Paraphraser-with-BERT-on-ParaSCI/assets/109932809/bf806142-edb1-4f68-a3cf-ca920fe230be)
-
 
 ## Our Model
 
